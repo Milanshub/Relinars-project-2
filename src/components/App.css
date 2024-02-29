@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.hero-container {
+    position: relative;
+}
+
+.carousel-caption {
+    font-family: "Oswald", sans-serif;
+    font-size: 62px !important;
+    position: absolute;
+    top: 50%;
+    left: 70%; /* Adjust this value to move it to the right */
+    color: white; /* Set text color */
+}
+
+.carousel-subtitle{
+    font-size: 40px;
+}
