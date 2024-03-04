@@ -1,6 +1,7 @@
 const Contacts = () => {
     return (
         <div className="component">
+        
             <h2>CONTACT US</h2>
             <iframe 
             title="Contact Form"

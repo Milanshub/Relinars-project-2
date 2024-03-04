@@ -33,7 +33,7 @@ const About = () => {
         <>
         <Container className='component'>
           <Row className='about-row'>
-               <Col>
+               <Col >
                 <div>
                   <h2>WHERE GLOBAL TRADE MEETS EXCELLENCE.</h2>
                 </div>
@@ -43,6 +43,7 @@ const About = () => {
                 where global trade meets excellence!</p>
               </Col>
            </Row>
+           <div className='red-line'></div>
            <Row className='about-row'>
               <Col md={6}>
                 <Carousel>
@@ -67,6 +68,7 @@ const About = () => {
                 Join us in the exciting journey of connecting commodities, businesses, and best-selling brands!</p>
               </Col>
            </Row>
+           <div className='red-line'></div>
            <Row className='about-row'>
               <Col md={6}>
                 <div className='text-centre'>
@@ -97,6 +99,7 @@ const About = () => {
               <Image src={coffee2} alt="coffee beans" fluid/> 
             </Col>
            </Row>
+           <div className='red-line'></div>
       </Container>
       </>
     )

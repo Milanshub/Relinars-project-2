@@ -22,16 +22,20 @@ const CompanyInfo = () => {
             description: "Salatiga Charcoal & BBQ Coal Production."
         }
     ]
-
     return(
         <Container className='component'>
-            <div className='text-centre'>
+            <div className='text-center'>
                 <h2>OUR COMPANIES AND INVESTMENTS.</h2>
             </div>
-            <Row>
+            <Row className='company-row'>
                 {companies.map((company,index) => (
-                    <Col key={index} md={4} className='text-center mb-4'>
-                        <img src={company.logo} alt={company.name} fluid/>
+                    <Col key={index} xs={12} sm={6} md={4}  className='text-center mb-4'>
+                        <img 
+                            src={company.logo} 
+                            alt={company.name}  
+                            // className={company.logo === tenfaceLogo ? 'mb-2' : ''} 
+                            style={{ maxWidth: '150px', maxHeight: '140px' }}
+                            fluid/>
                         <h3>{company.name}</h3>
                         <p>{company.description}</p>
                     </Col>

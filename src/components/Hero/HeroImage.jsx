@@ -32,9 +32,10 @@ const HeroImage = ({Title, subTitle}) => {
                                 className="d-block w-100" 
                                 src={image} 
                                 alt={getAltText(image)} />
-                            <div className="carousel-caption">
-                                <h1>{Title}</h1>
-                                <p className='carousel-subtitle'>{subTitle}</p>
+                            <div className="carousel-caption" >
+                              <h1 style={{ fontSize: '70%', marginBottom: '10px', color: 'white' }}>{Title}</h1>
+                              <div style={{ width: '100%', height: '4px', backgroundColor: 'red', margin: '10px 0' }}></div>
+                              <p style={{ fontSize: '70%', color: 'white' }}>{subTitle}</p>
                             </div>
                         </Carousel.Item>
                     ))}

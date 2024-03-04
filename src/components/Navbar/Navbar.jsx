@@ -22,7 +22,7 @@ const NavbarRelinars = () => {
       <Navbar 
         expand="lg"
         className={`navbar-relinars ${isSticky ? 'sticky' : ''}`}
-        variant="dark">
+        >
         <Container>
           <Navbar.Brand href="/">RELINARS.</Navbar.Brand>
         </Container>

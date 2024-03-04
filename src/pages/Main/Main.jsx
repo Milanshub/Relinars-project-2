@@ -12,7 +12,7 @@ const Main = () =>{
     return (
     <>
         <HeroImage 
-            classname='component'
+            classname='component title subtitle'
             Title="MAKING BUSINESS TRADING EASIER."
             subTitle="RELINARS GROUP."
         />

@@ -15,15 +15,21 @@ body {
     overflow-x: hidden;
 }
 
+div.carousel-caption{
+    font-size: 50px;
+}
+
 .navbar-relinars {
+    font-family: "Oswald", sans-serif;
     background-color: transparent;
-    color: white;
+    color: black !important;
     transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
     z-index: 1000; /* Ensure the navbar is above other elements */
 }
 
 /* Sticky navbar styling */
 .navbar-relinars.sticky {
+    font-family: "Oswald", sans-serif;
     background-color: white;
     color: black;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow when sticky */
@@ -34,8 +40,24 @@ body {
 
 }
 
+.red-line{
+    height: 4px;
+    background-color: red;
+    width: 100%;
+}
+
+
+
 h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    font-weight:bold !important; 
+    line-height: 1.5 !important;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 36px !important;
+    font-weight: lighter !important;
 }
 
 .text-left{
@@ -50,9 +72,16 @@ h2{
     font-family: "Oswald", sans-serif;
     font-size: 62px !important;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%; /* Adjust this value to move it to the right */
     color: white; /* Set text color */
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel-caption {
+        font-size: 40px !important; /* Adjust the font size for smaller screens */
+        top: 10%; /* Set top to 0% for smaller screens */
+    }
 }
 
 .carousel-subtitle{
